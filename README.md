@@ -1,14 +1,11 @@
 # WEBSITE NOW!
 
-## SETUP
-
-```bash
-npm install # in each subdirectory
-```
-
 ## CLI
 
 ```bash
+# setup
+npm install
+
 # develop
 npm start
 
@@ -19,6 +16,9 @@ npm run deploy
 ## GUI
 
 ```bash
+# setup
+npm install
+
 # develop
 npm start
 
@@ -29,19 +29,12 @@ npm run deploy
 ## SITE
 
 ```bash
+# setup
+npm install
+
 # develop
 npm start
 
 # deploy
-npm run deploy # now
-```
-
-## STUFF
-
-```json
-"scripts": {
-  "dev": "next",
-  "build": "next build",
-  "start": "next start"
-}
+npm run deploy
 ```
