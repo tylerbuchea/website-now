@@ -1,0 +1,16 @@
+{
+  "name": "website-now-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Buchea",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^3.0.0-beta10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
