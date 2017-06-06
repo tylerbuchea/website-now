@@ -13,7 +13,7 @@ npm install # in each subdirectory
 npm start
 
 # deploy
-npm run deploy # npm publish
+npm run deploy
 ```
 
 ## GUI
@@ -24,10 +24,6 @@ npm start
 
 # deploy
 npm run deploy
-# pckg main.js
-# cp main.exe -> ../site
-# cd ../site
-# npm run deploy
 ```
 
 ## SITE
