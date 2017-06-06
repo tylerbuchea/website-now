@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "deploy": ""
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "author": "Tyler Buchea",

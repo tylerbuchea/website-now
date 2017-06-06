@@ -10,10 +10,10 @@ npm install # in each subdirectory
 
 ```bash
 # develop
-website-now
+npm start
 
 # deploy
-# npm publish?
+npm run deploy # npm publish
 ```
 
 ## GUI
@@ -22,21 +22,22 @@ website-now
 # develop
 npm start
 
-# build
-# pckg main.js
-
 # deploy
-# just update the site after building
+npm run deploy
+# pckg main.js
+# cp main.exe -> ../site
+# cd ../site
+# npm run deploy
 ```
 
 ## SITE
 
 ```bash
 # develop
-npm run start
+npm start
 
 # deploy
-# npm run dev?
+npm run deploy # now
 ```
 
 ## STUFF
