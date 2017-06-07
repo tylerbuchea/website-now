@@ -2,11 +2,11 @@
   "name": "website-now-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "pages/index.js",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next",
+    "start-build": "next start",
     "deploy": "now",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
