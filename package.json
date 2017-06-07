@@ -5,8 +5,20 @@
   "main": "index.js",
   "scripts": {
     "deploy": "./deploy.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote --trailing-comma es5",
+      "git add"
+    ]
   },
   "author": "Tyler Buchea",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.0",
+    "prettier": "^1.4.2"
+  }
 }
